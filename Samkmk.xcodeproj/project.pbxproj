@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		ADF2E24624F17A94006B18C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF2E24524F17A94006B18C8 /* AppDelegate.swift */; };
 		ADF2E24824F17A94006B18C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF2E24724F17A94006B18C8 /* SceneDelegate.swift */; };
-		ADF2E24A24F17A94006B18C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF2E24924F17A94006B18C8 /* ContentView.swift */; };
-		ADF2E24C24F17A96006B18C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF2E24B24F17A96006B18C8 /* Assets.xcassets */; };
+		ADF2E24A24F17A94006B18C8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF2E24924F17A94006B18C8 /* HomeView.swift */; };
 		ADF2E24F24F17A96006B18C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF2E24E24F17A96006B18C8 /* Preview Assets.xcassets */; };
 		ADF2E25224F17A96006B18C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF2E25024F17A96006B18C8 /* LaunchScreen.storyboard */; };
+		ADF2E25A24F17C09006B18C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF2E25924F17C09006B18C8 /* Assets.xcassets */; };
+		ADF2E26A24F17D48006B18C8 /* Cairo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADF2E25F24F17D3E006B18C8 /* Cairo-Black.ttf */; };
+		ADF2E26B24F17D48006B18C8 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADF2E26024F17D3E006B18C8 /* Cairo-Bold.ttf */; };
+		ADF2E26C24F17D48006B18C8 /* Cairo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADF2E26124F17D3E006B18C8 /* Cairo-ExtraLight.ttf */; };
+		ADF2E26D24F17D48006B18C8 /* Cairo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADF2E26324F17D3E006B18C8 /* Cairo-Light.ttf */; };
+		ADF2E26E24F17D48006B18C8 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADF2E26224F17D3E006B18C8 /* Cairo-Regular.ttf */; };
+		ADF2E26F24F17D48006B18C8 /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADF2E25E24F17D3E006B18C8 /* Cairo-SemiBold.ttf */; };
+		ADF2E27324F17D63006B18C8 /* FontManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF2E27124F17D63006B18C8 /* FontManger.swift */; };
+		ADF2E27424F17D63006B18C8 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF2E27224F17D63006B18C8 /* ColorManager.swift */; };
+		ADF2E27724F1864A006B18C8 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF2E27624F1864A006B18C8 /* ProductCell.swift */; };
+		ADF2E27924F18785006B18C8 /* ProductDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF2E27824F18785006B18C8 /* ProductDetailsView.swift */; };
+		ADF2E27B24F187C9006B18C8 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF2E27A24F187C9006B18C8 /* SliderCell.swift */; };
+		ADF2E27E24F18878006B18C8 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF2E27D24F18878006B18C8 /* ProductModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ADF2E24224F17A94006B18C8 /* Samkmk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Samkmk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF2E24524F17A94006B18C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADF2E24724F17A94006B18C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADF2E24924F17A94006B18C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		ADF2E24B24F17A96006B18C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADF2E24924F17A94006B18C8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ADF2E24E24F17A96006B18C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADF2E25124F17A96006B18C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADF2E25324F17A96006B18C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF2E25924F17C09006B18C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADF2E25E24F17D3E006B18C8 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		ADF2E25F24F17D3E006B18C8 /* Cairo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Black.ttf"; sourceTree = "<group>"; };
+		ADF2E26024F17D3E006B18C8 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		ADF2E26124F17D3E006B18C8 /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		ADF2E26224F17D3E006B18C8 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		ADF2E26324F17D3E006B18C8 /* Cairo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Light.ttf"; sourceTree = "<group>"; };
+		ADF2E27124F17D63006B18C8 /* FontManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontManger.swift; sourceTree = "<group>"; };
+		ADF2E27224F17D63006B18C8 /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		ADF2E27624F1864A006B18C8 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		ADF2E27824F18785006B18C8 /* ProductDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsView.swift; sourceTree = "<group>"; };
+		ADF2E27A24F187C9006B18C8 /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
+		ADF2E27D24F18878006B18C8 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +80,12 @@
 		ADF2E24424F17A94006B18C8 /* Samkmk */ = {
 			isa = PBXGroup;
 			children = (
+				ADF2E25C24F17D18006B18C8 /* Resources */,
+				ADF2E25B24F17CF2006B18C8 /* VIews */,
+				ADF2E27C24F18867006B18C8 /* Model */,
 				ADF2E24524F17A94006B18C8 /* AppDelegate.swift */,
 				ADF2E24724F17A94006B18C8 /* SceneDelegate.swift */,
-				ADF2E24924F17A94006B18C8 /* ContentView.swift */,
-				ADF2E24B24F17A96006B18C8 /* Assets.xcassets */,
+				ADF2E25924F17C09006B18C8 /* Assets.xcassets */,
 				ADF2E25024F17A96006B18C8 /* LaunchScreen.storyboard */,
 				ADF2E25324F17A96006B18C8 /* Info.plist */,
 				ADF2E24D24F17A96006B18C8 /* Preview Content */,
@@ -73,6 +99,64 @@
 				ADF2E24E24F17A96006B18C8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADF2E25B24F17CF2006B18C8 /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				ADF2E27524F1863D006B18C8 /* Cell */,
+				ADF2E24924F17A94006B18C8 /* HomeView.swift */,
+				ADF2E27824F18785006B18C8 /* ProductDetailsView.swift */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		ADF2E25C24F17D18006B18C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ADF2E27024F17D5B006B18C8 /* Colors and Font Manger */,
+				ADF2E25D24F17D2B006B18C8 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ADF2E25D24F17D2B006B18C8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ADF2E25F24F17D3E006B18C8 /* Cairo-Black.ttf */,
+				ADF2E26024F17D3E006B18C8 /* Cairo-Bold.ttf */,
+				ADF2E26124F17D3E006B18C8 /* Cairo-ExtraLight.ttf */,
+				ADF2E26324F17D3E006B18C8 /* Cairo-Light.ttf */,
+				ADF2E26224F17D3E006B18C8 /* Cairo-Regular.ttf */,
+				ADF2E25E24F17D3E006B18C8 /* Cairo-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ADF2E27024F17D5B006B18C8 /* Colors and Font Manger */ = {
+			isa = PBXGroup;
+			children = (
+				ADF2E27224F17D63006B18C8 /* ColorManager.swift */,
+				ADF2E27124F17D63006B18C8 /* FontManger.swift */,
+			);
+			path = "Colors and Font Manger";
+			sourceTree = "<group>";
+		};
+		ADF2E27524F1863D006B18C8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ADF2E27624F1864A006B18C8 /* ProductCell.swift */,
+				ADF2E27A24F187C9006B18C8 /* SliderCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		ADF2E27C24F18867006B18C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADF2E27D24F18878006B18C8 /* ProductModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +218,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF2E25224F17A96006B18C8 /* LaunchScreen.storyboard in Resources */,
+				ADF2E26C24F17D48006B18C8 /* Cairo-ExtraLight.ttf in Resources */,
+				ADF2E26F24F17D48006B18C8 /* Cairo-SemiBold.ttf in Resources */,
+				ADF2E26E24F17D48006B18C8 /* Cairo-Regular.ttf in Resources */,
+				ADF2E26B24F17D48006B18C8 /* Cairo-Bold.ttf in Resources */,
+				ADF2E25A24F17C09006B18C8 /* Assets.xcassets in Resources */,
 				ADF2E24F24F17A96006B18C8 /* Preview Assets.xcassets in Resources */,
-				ADF2E24C24F17A96006B18C8 /* Assets.xcassets in Resources */,
+				ADF2E26A24F17D48006B18C8 /* Cairo-Black.ttf in Resources */,
+				ADF2E26D24F17D48006B18C8 /* Cairo-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +236,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF2E27324F17D63006B18C8 /* FontManger.swift in Sources */,
+				ADF2E27424F17D63006B18C8 /* ColorManager.swift in Sources */,
 				ADF2E24624F17A94006B18C8 /* AppDelegate.swift in Sources */,
+				ADF2E27724F1864A006B18C8 /* ProductCell.swift in Sources */,
+				ADF2E27E24F18878006B18C8 /* ProductModel.swift in Sources */,
+				ADF2E27924F18785006B18C8 /* ProductDetailsView.swift in Sources */,
 				ADF2E24824F17A94006B18C8 /* SceneDelegate.swift in Sources */,
-				ADF2E24A24F17A94006B18C8 /* ContentView.swift in Sources */,
+				ADF2E27B24F187C9006B18C8 /* SliderCell.swift in Sources */,
+				ADF2E24A24F17A94006B18C8 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
